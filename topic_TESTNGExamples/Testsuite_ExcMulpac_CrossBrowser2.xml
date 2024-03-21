@@ -1,0 +1,9 @@
+
+
+<suite parallel="false" name="Suite">
+  <test name="Test">
+   <packages>
+    <package name="package3"/>
+   </packages>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

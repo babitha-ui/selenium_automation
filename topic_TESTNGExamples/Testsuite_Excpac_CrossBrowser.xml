@@ -1,0 +1,18 @@
+
+
+<suite parallel="tests" name="Suite">
+  <test name="Test">
+  <classes>
+      <class name="package3.Test1_chrome"/>
+      
+  </classes>
+  </test> <!-- Test -->
+  
+  <test name="Test">
+  <classes>
+     
+      <class name="package3.Test1_Edge"/>
+      <class name="package3.Test1_ff"/>
+  </classes>
+  </test>
+</suite> <!-- Suite -->

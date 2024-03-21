@@ -1,0 +1,12 @@
+
+
+<suite parallel="false" name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="module10_selenium_Assignment2.Test1_singleMethod"/>
+      <class name="module10_selenium_Assignment2.Test3_Prioritization"/>
+     
+      <class name="module10_selenium_Assignment2_VP1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

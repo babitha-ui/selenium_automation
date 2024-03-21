@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="Test1_Valid data">
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="username" value="standard_user"></parameter>
+    <parameter name="password" value="secret_sauce"></parameter>
+    <classes>
+      <class name="topic_ITest.TestresContext2"/>
+    </classes>
+  </test> <!-- Test -->
+   <test name="Test2_validuname_invalidpwd">
+    <parameter name="browser" value="edge"></parameter>
+    <parameter name="username" value="standard_user"></parameter>
+    <parameter name="password" value="secret_sauc"></parameter>
+    <classes>
+      <class name="topic_ITest.TestresContext2"/>
+    </classes>
+  </test> <!-- Test -->
+   <test name="Test_invaliduname_validpwd">
+    <parameter name="browser" value="ff"></parameter>
+    <parameter name="username" value="standard_use"></parameter>
+    <parameter name="password" value="secret_sauce"></parameter>
+    <classes>
+      <class name="topic_ITest.TestresContext2"/>
+    </classes>
+  </test> <!-- Test -->
+   <test name="Test_invaliduname_invalidpwd">
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="username" value="standard_use"></parameter>
+    <parameter name="password" value="secret_sauc"></parameter>
+    <classes>
+      <class name="topic_ITest.TestresContext2"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

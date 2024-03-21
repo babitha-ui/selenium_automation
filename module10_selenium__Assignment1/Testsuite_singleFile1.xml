@@ -1,0 +1,9 @@
+
+
+<suite parallel="false" name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="module10_selenium_Assignment1.Module10_Assignment1"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,11 @@
+
+
+<suite parallel="false" name="Suite">
+  <test name="Test">
+    <classes>
+      <class name="topic_TESTNGExamples.Test1_singleMethod1"/>
+       <class name="topic_TESTNGExamples.Test3_Prioritization"/>
+       <class name="package2.Test11_VP5"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
